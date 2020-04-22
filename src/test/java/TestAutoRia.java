@@ -86,7 +86,7 @@ public class TestAutoRia {
 
         driver.findElements(linklist).get(2).click();
 
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
 }
